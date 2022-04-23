@@ -1,0 +1,38 @@
+{
+    "Actions": [
+        {
+            "Icon": "Images/icon",
+            "Name": "Open URL",
+            "States": [
+                {
+                    "Image": "Images/pluginAction",
+                    "TitleAlignment": "middle",
+                    "FontSize": "12"
+                }
+            ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Opens a URL as a Deeplink",
+            "UUID": "stream.deck.adb.deeplink",
+            "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+        }
+    ],
+    "Author": "Evan Holtrop",
+    "Name": "Android ADB",
+    "Description": "TODO_ENTER_PLUGIN_DESCRIPTION",
+    "Icon": "Images/pluginIcon",
+    "URL": "https://www.twitch.tv/dangeroustoplayalone",
+    "Version": "1.0",
+    "CodePath": "stream-deck-adb",
+    "Category": "Android ADB",
+    "CategoryIcon": "Images/categoryIcon",
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "SDKVersion": 2,
+    "Software": {
+        "MinimumVersion": "4.9"
+    }
+}
